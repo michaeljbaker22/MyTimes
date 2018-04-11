@@ -1,0 +1,60 @@
+header{
+  display: flex;
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+  width: 100%;
+  padding-bottom: 10px;
+  border-bottom: solid 1px black;
+}
+
+header img{
+  display: flex;
+  margin-right: 10px;
+}
+
+header h2{
+  color: MediumAquamarine;
+}
+
+nav{
+  display: inline-flex;
+  margin: auto;
+  margin-right: 5px;
+}
+
+nav ul li{
+
+  display: inline-block;
+  position: relative;
+}
+
+nav a{
+  color: black;
+}
+
+#main{
+  display: inline-flex;
+}
+
+.column .large{
+  display: flex;
+  width: 630px;
+  height: auto;
+  border: solid 1px black;
+}
+
+
+.column .medium{
+  display: flex;
+  width: 300px;
+  height: auto;
+  border: solid 1px black;
+}
+
+.column .small{
+  display: flex;
+  width: 240px;
+  height: auto;
+  border: solid 1px black;
+}
